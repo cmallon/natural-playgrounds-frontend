@@ -9,7 +9,6 @@ const Login = () => {
 
   async function handleSubmit(e) {
     e.preventDefault();
-    console.log("test");
 
     if (errorMsg) setErrorMsg("");
 
